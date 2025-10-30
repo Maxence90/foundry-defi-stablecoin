@@ -93,14 +93,6 @@ forge coverage
 ```
 make deploy ARGS="--network sepolia"
 ```
-这将为你设置一个 ChainlinkVRF 订阅。如果你已经有订阅了，请在 scripts/HelperConfig.s.sol 文件中更新它。它还会自动将你的合约添加为消费者。
-
-3. 注册一个 Chainlink 自动化维护任务
-
-[可以参考文档](https://docs.chain.link/chainlink-automation/guides/compatible-contracts)
-
-请访问 automation.chain.link 并注册一个新的 upkeep。选择 Custom logic 作为自动化触发机制。完成后，你的界面将会类似于这样：
-![Automation](./img/automation.png)
 
 ## Script脚本
 在部署到测试网或本地网后，可以运行脚本。
