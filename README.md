@@ -1,6 +1,7 @@
 # Foundry Smart Contract Lottery智能合约彩票
 
 # 简介
+[对应CSDN文章连接](https://blog.csdn.net/2301_81272096/article/details/154174099?spm=1001.2014.3001.5502)
 
 该项目旨在成为一种稳定币，用户可以存入 WETH 和 WBTC 来换取与美元挂钩的代币。
 
