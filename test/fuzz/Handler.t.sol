@@ -72,7 +72,7 @@ contract Handler is Test {
         // 如果存在债务，则计算需要偿还多少以保持安全
         if (totalDscMinted > 0) {
             // 估算赎回后的健康因子
-            // 假设我们希望维持健康因子至少为 1.2
+            // 假设我们希望维持健康因子至少为 1.0
             uint256 collateralValueAfterRedemption =
                 collateralValueInUsd - dsce.getUsdValue(address(collateral), amountCollateral);
             uint256 desiredMaxDebt = collateralValueAfterRedemption * dsce.getLiquidationThreshold() / 1e18;
